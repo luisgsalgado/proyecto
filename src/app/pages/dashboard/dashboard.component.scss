@@ -1,0 +1,233 @@
+button {
+    height: 90px;
+    width: 250px;
+    border: none;
+    border-radius: 0.2cm;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    font-size: medium;
+}
+br{
+    border: solid gray;
+}
+
+.buttons_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 2, "wght" 400, "GRAD" 0, "opsz" 48;
+      
+  }
+
+h2, h1{
+    font-family: 'Inter', sans-serif;
+}
+
+.button_1{
+
+    background: #A7A8EB;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+.button_2{
+    background: #f7c2c2;
+    color: red;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+
+}
+.button_3{
+    background: #F5CBA7 ;
+    color: orange;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+.btn_listening{
+    width: 50px;
+    height: 50px;
+    background-color: orange ;
+    
+}
+.btn_Grammar{
+    width: 50px;
+    height: 50px;
+    background-color: #EC7063  ;
+}
+.btn_Pronuncation{
+    width: 50px;
+    height: 50px;
+    background-color: #3498DB ;
+}
+.btn_Diccionary{
+    width: 50px;
+    height: 50px;
+    background-color: #82E0AA ;
+}
+
+.progress_class{
+ display: flex;
+ flex-direction: row;
+ margin-top: 30px;
+ padding-left: 30px;
+ padding-bottom: 30px;
+border: 1px solid  #D7DBDD ;
+border-radius: 20px;
+height: 150px;
+width: 160px;
+
+}
+
+.tittle_list{
+    
+    display: flex;
+    align-items: center;
+    gap: 22rem;
+
+}
+.container_list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    gap: 5px;
+}
+.elements_list{
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    border-radius: 5px;
+    width: 500px;
+    height: 100px;
+    background: #F2F3F4;
+    ;
+    
+
+}
+.datos_1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+       
+
+}
+.datos_2{
+    display: flex;
+    flex-direction: column;
+    padding-left:180px ;
+}
+
+.container_class{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.container_class1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    gap: 3rem;
+
+    
+    
+    
+}
+.tittle_dashboard{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    padding-left: 1210px;
+}
+.class{
+    display: flex;
+    flex-direction: row;
+    padding-left: 180px;
+
+}
+
+.class_2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.class_1{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+img{
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border-radius: 20px;
+}
+
+.table_img{
+       
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border-radius: 50px;
+
+}
+.table{
+    padding-top: 40px;
+}
+
+table{
+
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;
+
+}
+
+th, td{
+   
+    padding: 15px;
+    
+}
+.td_user{
+    width: 400px;
+}
+
+ thead{
+    background-color: #E5E7E9 ;
+    color: black;
+    border-radius: 10px;
+}
+
+.container_buttlist{
+    display: flex;
+    flex-direction: row;
+    
+}

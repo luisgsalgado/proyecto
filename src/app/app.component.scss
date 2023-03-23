@@ -1,0 +1,15 @@
+.container_sidebar{
+    display: flex;
+    flex-direction: row;
+
+}
+.container_all{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.container_dashboard{
+    display: flex;
+    flex-direction: column;
+    padding-left: 350px;    
+}
