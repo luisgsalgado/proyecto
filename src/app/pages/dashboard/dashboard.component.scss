@@ -1,5 +1,5 @@
 button {
-    height: 90px;
+    height: 80px;
     width: 250px;
     border: none;
     border-radius: 0.2cm;
@@ -7,9 +7,7 @@ button {
     cursor: pointer;
     font-size: medium;
 }
-br{
-    border: solid gray;
-}
+
 
 .buttons_row{
     display: flex;
@@ -17,17 +15,18 @@ br{
 }
 
 .material-symbols-outlined {
-    font-variation-settings: "FILL" 2, "wght" 400, "GRAD" 0, "opsz" 48;
-      
+    font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+    font-size: 20px;
   }
 
 h2, h1{
     font-family: 'Inter', sans-serif;
 }
 
+
 .button_1{
 
-    background: #A7A8EB;
+    background: #D6EAF8;
     color: blue;
     display: flex;
     justify-content: center;
@@ -49,7 +48,7 @@ h2, h1{
 
 }
 .button_3{
-    background: #F5CBA7 ;
+    background: #FEF5E7 ;
     color: orange;
     margin-left: 20px;
     display: flex;
@@ -61,24 +60,24 @@ h2, h1{
 }
 
 .btn_listening{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: orange ;
     
 }
 .btn_Grammar{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: #EC7063  ;
 }
 .btn_Pronuncation{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: #3498DB ;
 }
 .btn_Diccionary{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: #82E0AA ;
 }
 
@@ -90,8 +89,8 @@ h2, h1{
  padding-bottom: 30px;
 border: 1px solid  #D7DBDD ;
 border-radius: 20px;
-height: 150px;
-width: 160px;
+height: 110px;
+width: 140px;
 
 }
 
@@ -107,6 +106,7 @@ width: 160px;
     flex-direction: column;
     padding-left: 300px;
     gap: 5px;
+    font-family: 'Open Sans', sans-serif;
 }
 .elements_list{
     display: flex;
@@ -114,9 +114,9 @@ width: 160px;
     border: 1px;
     border-radius: 5px;
     width: 500px;
-    height: 100px;
+    height: 80px;
     background: #F2F3F4;
-    ;
+    align-content: center;
     
 
 }
@@ -124,6 +124,7 @@ width: 160px;
     display: flex;
     flex-direction: column;
     padding-left: 10px;
+    padding-top: 25px;
        
 
 }
@@ -131,6 +132,7 @@ width: 160px;
     display: flex;
     flex-direction: column;
     padding-left:180px ;
+    padding-top: 25px;
 }
 
 .container_class{
@@ -139,14 +141,16 @@ width: 160px;
     padding-top: 1rem;
     justify-content: center;
     width: 100%;
-
-
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .container_class1{
     display: flex;
     flex-direction: row;
     padding-bottom: 30px;
+    padding-top: 10px;
+    height: 20px;
     gap: 3rem;
 
     
@@ -157,6 +161,7 @@ width: 160px;
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 .logout{
     display: flex;
@@ -166,7 +171,7 @@ width: 160px;
 .class{
     display: flex;
     flex-direction: row;
-    padding-left: 180px;
+    padding-left: 200px;
 
 }
 
@@ -183,9 +188,9 @@ width: 160px;
 
 }
 img{
-    width: 80px;
-    height: 80px;
-    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
     padding-left: 5px;
     border-radius: 20px;
 }
@@ -194,13 +199,16 @@ img{
        
     width: 40px;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 5px;
     border-radius: 50px;
+    
 
 }
 .table{
-    padding-top: 40px;
+    padding-top: 20px;
+    width: 1700px;
+    
 }
 
 table{
@@ -208,6 +216,7 @@ table{
     text-align: left;
     background-color: white;
     border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
 
 }
 

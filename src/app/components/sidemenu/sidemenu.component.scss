@@ -5,9 +5,11 @@
   left: 30px;
   bottom: 20px;
   width: 260px;
+  height: 95%;
   background: black;
-  border-radius: 10px;
-  font-family: "Inter", sans-serif;
+  
+
+  font-family: 'Open Sans', sans-serif;
 
   ul {
     position: absolute;
@@ -25,6 +27,24 @@
       border-bottom-left-radius: 20px;
     }
   }
+
+}
+
+.perfil{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+  gap: 1rem;
+}
+
+
+img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin: auto;
 }
 
 .material-symbols-outlined {
@@ -36,6 +56,8 @@
 
 .navigation-content ul li.active {
   background: white;
+  font-weight: bolder;
+  
 }
 
 .navigation-content ul li b:nth-child(1) {
@@ -45,6 +67,7 @@
   width: 100%;
   background: white;
   display: none;
+ 
 }
 .navigation-content ul li b:nth-child(1)::before {
   content: "";

@@ -1,15 +1,23 @@
 .container_sidebar{
     display: flex;
     flex-direction: row;
-
+    
 }
 .container_all{
     display: flex;
+    
     flex-direction: row;
-    width: 100%;
+    
+    border: solid black 23px;
+    
+    width: 98%;
+    height: 1000px;
+    border-radius: 40px;
+   
 }
 .container_dashboard{
     display: flex;
     flex-direction: column;
-    padding-left: 350px;    
+    padding-left: 350px;
+     
 }
