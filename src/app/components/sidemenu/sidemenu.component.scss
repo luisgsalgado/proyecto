@@ -1,11 +1,14 @@
 .navigation-content {
   display: flex;
-  position: fixed;
+  position: absolute ;
   top: 20px;
-  left: 30px;
-  bottom: 20px;
+  left: 10px;
+  bottom: 10px;
   width: 260px;
-  height: 95%;
+  box-sizing: initial;
+  transition:0.5s;
+  cursor: pointer;
+  
   background: black;
   
 

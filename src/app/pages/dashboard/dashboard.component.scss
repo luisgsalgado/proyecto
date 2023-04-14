@@ -1,6 +1,6 @@
 button {
     height: 80px;
-    width: 250px;
+    width: 200px;
     border: none;
     border-radius: 0.2cm;
     font-family: 'Inter', sans-serif;
@@ -17,7 +17,12 @@ button {
 .material-symbols-outlined {
     font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
     font-size: 20px;
-  }
+}
+
+.icon{
+    font-size: 30px;
+    padding-left: 5px;
+}
 
 h2, h1{
     font-family: 'Inter', sans-serif;
@@ -140,7 +145,7 @@ width: 140px;
     flex-direction: column;
     padding-top: 1rem;
     justify-content: center;
-    width: 100%;
+   
     font-family: 'Open Sans', sans-serif;
     
 }
@@ -166,13 +171,12 @@ width: 140px;
 .logout{
     display: flex;
     align-items: center;
-    padding-left: 1210px;
+    padding-left: 1040px;
 }
 .class{
     display: flex;
     flex-direction: row;
-    padding-left: 200px;
-
+    padding-left: 130px;
 }
 
 .class_2{
@@ -181,7 +185,6 @@ width: 140px;
     margin-left: 30px;
 }
 .class_1{
-
     display: flex;
     flex-direction: column;
     
@@ -197,8 +200,8 @@ img{
 
 .table_img{
        
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding-top: 5px;
     padding-left: 5px;
     border-radius: 50px;
@@ -207,7 +210,7 @@ img{
 }
 .table{
     padding-top: 20px;
-    width: 1700px;
+   
     
 }
 
@@ -215,18 +218,18 @@ table{
 
     text-align: left;
     background-color: white;
-    border-collapse: collapse;
+    border-collapse: collapse ;
     font-family: 'Open Sans', sans-serif;
 
 }
 
 th, td{
    
-    padding: 15px;
+    padding: 10px;
     
 }
 .td_user{
-    width: 400px;
+    width: 340px;
 }
 
  thead{
